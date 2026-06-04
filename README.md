@@ -14,7 +14,7 @@ Learning and implementing diffusion models completely from scratch with a focus 
 
 * [x] Step 00 — Python Basics & Environment Setup
 * [x] Step 01 — Images as Numbers
-* [ ] Step 02 — Adding Noise
+* [x] Step 02 — Adding Noise
 * [ ] Step 03 — Removing Noise
 * [ ] Step 04 — Tiny Neural Network
 * [ ] Step 05 — Mini Diffusion Model
