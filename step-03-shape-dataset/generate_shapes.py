@@ -3,6 +3,11 @@ import matplotlib.pyplot as plt
 
 image = np.zeros((64, 64), dtype=np.float32)
 
+# for straight line
+# y = np.random.randint(5, 60)  # row position
+# image[y, 5:55] = 255          # horizontal line
+
+
 x = np.random.randint(5, 20)
 y = np.random.randint(5, 20)
 
