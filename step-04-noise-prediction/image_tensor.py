@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 
-image = np.zeros((4, 4), dtype=np.float32)
+image = np.zeros((8, 8), dtype=np.float32)
 
 image[1:3, 1:3] = 255
 
