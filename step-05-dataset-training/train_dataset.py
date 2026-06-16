@@ -6,7 +6,7 @@ import torch.optim as optim
 images = []
 noisy_images = []
 
-for _ in range(1000):
+for _ in range(300):
 
     image = np.zeros((32, 32), dtype=np.float32)
 
@@ -50,7 +50,7 @@ optimizer = optim.Adam(
     lr=0.01
 )
 
-for epoch in range(500):
+for epoch in range(200):
 
     output = model(noisy_tensor)
 
@@ -69,7 +69,6 @@ for epoch in range(500):
         print(
             f"Epoch {epoch}: {loss.item()}"
         )
-        
         
         
 torch.save(

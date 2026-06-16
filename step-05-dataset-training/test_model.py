@@ -18,8 +18,8 @@ model.eval()
 
 image = np.zeros((32, 32), dtype=np.float32)
 
-x = np.random.randint(2, 22)
-y = np.random.randint(2, 22)
+x = np.random.randint(8, 16)
+y = np.random.randint(8, 16)
 
 
 # size = np.random.randint(4, 10)
