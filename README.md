@@ -1,25 +1,95 @@
 # Diffusion From Scratch
 
-Learning and implementing diffusion models completely from scratch with a focus on deep understanding rather than high-quality outputs.
+Learning how diffusion models work by building everything from scratch on CPU.
 
-## Goals
+## Goal
 
-* Learn how AI image generation works internally
-* Understand tensors, noise, and diffusion step-by-step
-* Build a tiny diffusion model runnable on CPU
-* Avoid APIs and black-box tools
-* Focus on intuition first, math second
+Understand image generation deeply instead of using APIs or prebuilt models.
 
-## Roadmap
+The focus is on intuition, experimentation, and gradually building toward a tiny diffusion model.
 
+---
 
-* [x] Step 00 — Python Basics & Environment Setup
-* [x] Step 01 — Images as Numbers
-* [x] Step 02 — Adding Noise
-* [x] Step 03 — Shape Dataset Generation
-* [ ] Step 04 — Noise Prediction Model
-* [ ] Step 05 — Tiny Diffusion Sampling
+## Progress
 
-## Current Status
+### Step 00 - Python Setup
 
-Currently learning Python fundamentals and setting up the project structure for future diffusion experiments.
+- Virtual environment
+- Python basics
+- Project structure
+
+### Step 01 - Images as Arrays
+
+- Grayscale images
+- Pixels and brightness
+- Displaying images with Matplotlib
+
+### Step 02 - RGB Images
+
+- RGB channels
+- Color representation
+- Random image generation
+
+### Step 03 - Forward Diffusion
+
+- Adding Gaussian noise
+- Understanding diffusion intuition
+- Gradual corruption of images
+
+### Step 04 - First Neural Network
+
+- Linear layers
+- Tensors
+- Loss functions
+- Training basics
+
+### Step 05 - Dataset Training
+
+- Generated square datasets
+- First denoising experiments
+- Understanding memorization vs learning
+
+### Step 06 - Autoencoder
+
+- Image compression and reconstruction
+- Denoising autoencoder
+- Limitations of fully connected networks
+
+### Step 07 - CNN Denoiser
+
+- First convolutional neural network
+- Learning image structure
+- Better denoising performance
+
+### Step 08 - Noise Prediction
+
+- Predicting noise instead of clean images
+- Diffusion-style denoising
+- Noise subtraction
+
+### Step 09 - Multi-Step Diffusion (In Progress)
+
+- Multiple noise levels
+- Training on varying corruption strengths
+- Moving toward real diffusion pipelines
+
+---
+
+## Tech Stack
+
+- Python
+- NumPy
+- PyTorch
+- Matplotlib
+
+---
+
+## Hardware
+
+Built and trained entirely on CPU.
+
+No APIs.
+No paid tools.
+No pretrained models.
+
+Everything is implemented from scratch for learning purposes.
